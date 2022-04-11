@@ -1,6 +1,6 @@
 // Assignment Code
 var generateButton = document.querySelector("#generate");
-
+ 
 generateButton.addEventListener("click", writePassword);
 
 function generatePassword() 
