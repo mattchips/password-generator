@@ -44,7 +44,7 @@ function generatePassword()
   return password;
 } 
 
-// Write password to the #password
+// Write password to #password
 function writePassword()
 {
   var password = generatePassword();
