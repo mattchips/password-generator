@@ -3,11 +3,6 @@ var generateButton = document.querySelector("#generate");
 
 generateButton.addEventListener("click", writePassword);
 
-/* generateButton.onclick = function() 
-{
-  writePassword();
-}; */
-
 function generatePassword() 
 {
   var upperLetter = confirm("Do you want upper case letters?");
